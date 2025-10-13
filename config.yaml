@@ -1,0 +1,12 @@
+path: C:/Users/dncur/PycharmProjects/drone-object-detection/data #dataset directory (absolute path to prevent errors)
+train: images/train # train images in path
+val: images/train # validate images in path (in future use different images than ones in dataset to validate)
+
+# Classes
+names:
+  0: car
+  1: bus
+  2: truck
+  3: boat
+  4: aircraft
+  5: military
