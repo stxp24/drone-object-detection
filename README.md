@@ -9,19 +9,19 @@ This system implements state-of-the-art object detection using the YOLOv11 model
 - Comprehensive evaluation framework with per-class metrics
 - Production-ready inference pipeline with visualization dashboard (not yet implemented)
 # Tech Stack
-Framework: Ultralytics YOLOv11
-Model: YOLOv11-Small (optimized for accuracy/speed balance)
-Training Platform: Google Colab (T4 GPU)
-Languages: Python 3.10+
-Key Libraries: PyTorch, OpenCV, NumPy
+- Framework: Ultralytics YOLOv11
+- Model: YOLOv11-Small (optimized for accuracy/speed balance)
+- Training Platform: Google Colab (T4 GPU)
+- Languages: Python 3.10+
+- Key Libraries: PyTorch, OpenCV, NumPy
 # Dataset
-VisDrone2019: 7,000+ drone-captured images
-Custom Dataset: 134 manually annotated images
-Total: ~7,200 images with 50,000+ annotations
+- VisDrone2019: 7,000+ drone-captured images
+- Custom Dataset: 134 manually annotated images (via DroneStock, annotated with CVAT)
+- Total: ~7,200 images with 50,000+ annotations
 # Training Platform
-Hardware: Google Colab T4 GPU (16GB VRAM)
-Duration: In Progress
-Framework: Ultralytics 8.3.x
+- Hardware: Google Colab T4 GPU (16GB VRAM)
+- Duration: In Progress
+- Framework: Ultralytics 8.3.x
 # THIS PROJECT IS CURRENTLY IN TRAINING
 This project is not yet finished, as training is currently running on my Colab project. This README.md, as well as project structure, data, etc will be updated as this project progresses. I may edit this README.md sporadically, such as without any code pushes or data pushes. Sometimes I just don't like some things I have written and will change it. For any questions, email me at dnc8878@g.rit.edu
 # Dataset Citation
