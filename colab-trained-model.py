@@ -11,7 +11,7 @@ Original file is located at
 
 !pip install ultralytics -q
 
-# Upload your dataset.zip
+# Upload dataset.zip
 from google.colab import files
 import zipfile
 import os
@@ -105,7 +105,7 @@ for filename in test_img.keys():
     results[0].show()
     print(f"Detections: {len(results[0].boxes)}")
 
-# Download the trained model to laptop
+# Download the trained model to
 from google.colab import files
 import shutil
 
