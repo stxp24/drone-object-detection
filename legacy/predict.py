@@ -3,8 +3,7 @@ from ultralytics import YOLO
 
 import os
 
-project_root = r"C:\Users\dncur\PycharmProjects\drone-object-detection"
-model_path = os.path.join(project_root, "models", "best.pt")
+model_path = os.path.join(r"models/best")
 
 # verify model exists before loading
 if not os.path.exists(model_path):
