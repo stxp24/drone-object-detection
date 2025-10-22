@@ -23,7 +23,8 @@ This system implements state-of-the-art object detection using the YOLOv11 model
 - Duration: 2 hours
 - Framework: Ultralytics 8.3.x
 # RESULTS
-### Overall Performance
+#### (go to training_report.md in docs directory for more detailed analysis)
+### Overall Performance  
 Metric | Score  
 | mAP@50 | 80.3% |  
 | mAP@50-95 | 62.4% |  
