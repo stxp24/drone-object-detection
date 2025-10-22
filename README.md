@@ -24,18 +24,18 @@ This system implements state-of-the-art object detection using the YOLOv11 model
 - Framework: Ultralytics 8.3.x
 # RESULTS
 ### Overall Performance
-Metric | Score
-| mAP@50 | 80.3% |
-| mAP@50-95 | 62.4% |
-| Precision | 88.0% |
-| Recall | 75.7% |  
-### Per-class Performance
-Car: 84.0% mAP@50
-Bus: 60.5% mAP@50
-Truck: 38.9% mAP@50
-Boat: 99.5% mAP@50
-Aircraft: 99.5% mAP@50
-Military: 99.5% mAP@50
+Metric | Score  
+| mAP@50 | 80.3% |  
+| mAP@50-95 | 62.4% |  
+| Precision | 88.0% |  
+| Recall | 75.7% |    
+### Per-class Performance  
+Car: 84.0% mAP@50  
+Bus: 60.5% mAP@50  
+Truck: 38.9% mAP@50  
+Boat: 99.5% mAP@50  
+Aircraft: 99.5% mAP@50  
+Military: 99.5% mAP@50  
 # Dataset Citation
 @ARTICLE{9573394,
   author={Zhu, Pengfei and Wen, Longyin and Du, Dawei and Bian, Xiao and Fan, Heng and Hu, Qinghua and Ling, Haibin},
