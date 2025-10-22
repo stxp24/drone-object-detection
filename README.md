@@ -1,7 +1,7 @@
 # Drone-Based Object Detection and Tracking (Simulated)
 A real-time object detection and tracking system for aerial surveillance using YOLOv11, designed for detecting and tracking vehicles (civilian/military), aircraft, and maritime vessels from drone footage.
 # Overview
-This system implements state-of-the-art object detection using the YOLOv11 model, trained on aerial imagery datasets, hoping to achieve high-accuracy real-time detection across 6 object classes with comprehensive tracking capabilities.
+This system implements state-of-the-art object detection using the YOLOv11 model, trained on aerial imagery datasets, achieving high-accuracy real-time detection across 6 object classes with comprehensive tracking capabilities.
 # Key Features
 - Real-time object detection at 30+ FPS
 - Multi-object tracking using [ByteTrack](https://blog.roboflow.com/what-is-bytetrack-computer-vision/) algorithm
@@ -17,13 +17,25 @@ This system implements state-of-the-art object detection using the YOLOv11 model
 # Dataset
 - VisDrone2019: 7,000+ drone-captured images
 - Custom Dataset: 134 manually annotated images (via DroneStock, annotated with CVAT)
-- Total: ~7,200 images with 50,000+ annotations
+- Total: ~7,200 images
 # Training Platform
 - Hardware: Google Colab T4 GPU (16GB VRAM)
-- Duration: In Progress
+- Duration: 2 hours
 - Framework: Ultralytics 8.3.x
-# THIS PROJECT IS CURRENTLY IN TRAINING
-This project is not yet finished, as training is currently running on my Colab project. This README.md, as well as project structure, data, etc will be updated as this project progresses. I may edit this README.md sporadically, such as without any code pushes or data pushes. Sometimes I just don't like some things I have written and will change it. For any questions, email me at dnc8878@g.rit.edu
+# RESULTS
+### Overall Performance
+Metric | Score
+| mAP@50 | 80.3% |
+| mAP@50-95 | 62.4% |
+| Precision | 88.0% |
+| Recall | 75.7% |  
+### Per-class Performance
+Car: 84.0% mAP@50
+Bus: 60.5% mAP@50
+Truck: 38.9% mAP@50
+Boat: 99.5% mAP@50
+Aircraft: 99.5% mAP@50
+Military: 99.5% mAP@50
 # Dataset Citation
 @ARTICLE{9573394,
   author={Zhu, Pengfei and Wen, Longyin and Du, Dawei and Bian, Xiao and Fan, Heng and Hu, Qinghua and Ling, Haibin},
